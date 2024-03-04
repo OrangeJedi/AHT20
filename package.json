@@ -1,0 +1,30 @@
+{
+  "name": "aht20",
+  "version": "1.0.0",
+  "description": "A Node.js library for reading temperature and humidity values over I2C from an AHT20",
+  "main": "AHT20.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OrangeJedi/AHT20.git"
+  },
+  "keywords": [
+    "i2c",
+    "aht20",
+    "temperature",
+    "humidity",
+    "raspberry",
+    "pi"
+  ],
+  "author": "OrangeJedi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OrangeJedi/AHT20/issues"
+  },
+  "homepage": "https://github.com/OrangeJedi/AHT20#readme",
+  "dependencies": {
+    "i2c-bus": "^5.2.3"
+  }
+}
